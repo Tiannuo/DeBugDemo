@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+
+    <color name="gray_light_1">#efefef</color>
+    <color name="gray_light_2">#ebecee</color>
+    <color name="gray_light_3">#B8B8B8</color>
+    <color name="gray_dark_1">#5f5f5f</color>
+    <color name="gray_dark_11">#305f5f5f</color>
+    <color name="gray_dark_2">#4c4c4c</color>
+
+
+    <!-- 3.0 版本用到的颜色start -->
+    <color name="appBackground_gray">#F2F2F2</color>
+    <color name="appusertext">#565352</color>
+    <color name="statusbar_bg">#00AFF0</color>
+    <color name="main_red">#FF4033</color>
+    <color name="gray_60">#FF4033</color>
+    <color name="on_text">#FFFFFF</color><!-- 开启时文字颜色 -->
+    <color name="off_text">#5B5B5B</color><!-- 关闭时文字颜色 -->
+    <!-- 3.0版所用到的颜色 end -->
+
+
+    <!-- 2.0版所用到的颜色 start -->
+    <color name="orange_light">#fc610f</color>
+    <color name="orange_dark">#ff5533</color>
+    <color name="blue_light">#e0ebf1</color>
+    <color name="blue_dark_less">#539adf</color>
+    <color name="blue_login_unpress">#E93B3C</color>
+    <color name="blue_login_pressed">#FF3B3C</color>
+    <color name="blue_leftandright">#4180BA</color>
+
+    <color name="black">#000000</color>
+    <color name="tab_bottom_bg">#3D4149</color>
+    <color name="title_bg">#EFEFEF</color>
+    <color name="transparent_half">#55000000</color>
+    <color name="gray_wallet_small">#555657</color>
+    <!-- 2.0版所用到的颜色 end -->
+
+    <color name="red_pressed">#ef4b4b</color>
+    <color name="red_unpress">#df4b4b</color>
+    <color name="transparent">#00000000</color>
+    <color name="hint_text">#BBBBBB</color>
+    <color name="hint_color">#bdbcc0</color>
+    <color name="edit_text_bg">#EBEBEB</color>
+    <color name="title_bg_unpress">#06C3FA</color>
+    <color name="title_bg_pressed">#09E3FA</color>
+    <color name="tab_top_pressed">#00ADE6</color>
+    <!-- <color name="tab_top_unpress">#06C3FA</color> -->
+    <color name="tab_top_unpress">#F8F8F8</color>
+    <color name="head_bg">#06C3FA</color>
+    <color name="page_bg_light">#F9F9F8</color>
+    <color name="listbg_gray">#F3F3F3</color>
+    <color name="pg_bg">#f6f7f6</color>
+    <color name="page_bg_gray">#EFEFEF</color>
+    <color name="fontcolor_blue">#32CAFA</color>
+    <color name="fontcolor_gray">#B3B2B2</color>
+    <color name="fontcolor_black">#3C3C3D</color>
+    <color name="fontcolor_orange">#FF7F00</color>
+    <color name="divider_gray">#dfdfdf</color>
+    <color name="divider_gray_more">#EBEBEB</color>
+    <color name="tradingvolume_yellow">#F3D16E</color>
+    <color name="tradingvolume_lightyellow">#F3DFA4</color>
+    <color name="tradingvolume_red">#FF7F00</color>
+    <color name="tab_top_dial_pressed">#1FB1DC</color>
+    <color name="tab_top_dial_unpress">#95E7FF</color>
+    <color name="red">#FFff0000</color>
+    <color name="dark_gray">#FF888888</color>
+    <color name="import_bg">#bebebe</color>
+
+    <!-- 主题颜色 -->
+    <color name="theme_light_gray">#f9f9f9</color>
+    <color name="text_color_red">#FF1111</color>
+    <color name="text_color_yellow">#ee9434</color>
+    <color name="text_tab_bottom_pressed">#5b6064</color>
+
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="dialog_blue">#0095D9</color>
+    <color name="dialog_orange">#FF7B02</color>
+    <color name="dialog_gray">#e6e6e6</color>
+    <color name="dialogColor">#f0ffffff</color>
+    <color name="dialogTxtColor">#539adf</color>
+    <color name="hoodcontent_back">#595959</color>
+    <color name="hoodcontent_checkback">#8B8B8B</color>
+    <color name="hoodcontent_checktext">#D1D1D1</color>
+    <color name="hoodcontent_nochecktext">#929191</color>
+    <color name="play_bule">#00AFF0</color>
+
+    <color name="play_blueoo">#3598DC</color>
+    <color name="player_gray">#E2E2E3</color>
+
+
+
+    <!-- toutiaoliebiao -->
+    <color name="top_title">#2E2E2E</color>
+    <color name="top_content">#A5A5A5</color>
+
+
+    <color name="gray">#EBEDEF</color>
+    <color name="whrite">#ffffffff</color>
+    <color name="gray_0">#C8C7C7</color>
+
+
+
+
+    <!--主题颜色-->
+    <color name="blue_4B9F00">#4B9F00</color>
+
+    <color name="white_FFFFFF">#FFFFFF</color>
+
+
+    <!--字体颜色-->
+    <color name="white_A5A5A5">#A5A5A5</color>
+
+    <!--标题字体-->
+    <color name="black_44444">#444444</color>
+
+    <!--正文-->
+    <color name="gray_B6B6B6">#B6B6B6</color>
+    <color name="gray_A1A1A1">#A1A1A1</color>
+    <color name="gray_AEAEAE">#AEAEAE</color>
+    <color name="gray_777777">#777777</color>
+    <color name="green_499E02">#499E02</color>
+    <color name="purple_C677DB">#C677DB</color>
+    <!--屏幕背景-->
+    <color name="gray_F1F1F1">#F1F1F1</color>
+
+    <!--按钮-->
+    <color name="gray_B1B1B1">#B1B1B1</color>
+
+
+    <!--分割线-->
+    <color name="gray_DFDFDF">#DFDFDF</color>
+
+    <color name="orange">#F69601</color>
+
+    <color name="gray_DFDFDD">#DFDFDD</color>
+
+    <color name="blue_31B2E2">#31B2E2</color>
+
+    <color name="blue_32B2E3">#32B2E3</color>
+
+    <color name="material_red">#ffF44336</color>
+    <color name="material_green">#ff4CAF50</color>
+    <color name="material_blue">#ff03A9F4</color>
+    <color name="material_yellow">#ffFFEB3B</color>
+
+
+    <!--二维码-->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+
+
+</resources>

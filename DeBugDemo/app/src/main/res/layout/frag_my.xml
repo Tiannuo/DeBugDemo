@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.handmark.pulltorefresh.library.PullNestedScrolView
+        android:id="@+id/pullnestedscrollow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <com.example.debugdemo.Wight.MyListView
+                android:id="@+id/mylistview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                ></com.example.debugdemo.Wight.MyListView>
+
+
+            <TextView
+                android:id="@+id/myText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+
+
+                android:text="暂无数据，下拉刷新试试"
+                android:layout_marginTop="150dp"
+
+                />
+
+
+
+
+        </FrameLayout>
+
+
+
+
+    </com.handmark.pulltorefresh.library.PullNestedScrolView>
+
+
+</LinearLayout>

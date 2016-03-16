@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/btn_qq"
+            android:padding="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="蚂蚁体育"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/btn_qq"
+            android:padding="10dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        ></android.support.v4.view.ViewPager>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/gray_dark_11"
+        >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:id="@+id/ll_top"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:id="@+id/ll_top1"
+            >
+            <EditText
+                android:id="@+id/ed_pinlun"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:hint="我也要说两句"
+                android:paddingLeft="10dp"
+
+                android:background="@drawable/pinlunedit_backgroud"
+                />
+            <TextView
+                android:id="@+id/tv_send"
+                android:text="发送"
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/pinlunedit_backgroud"
+                android:padding="5dp"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_top1"
+            android:layout_alignRight="@+id/ll_top1"
+            >
+            <TextView
+                android:id="@+id/tv_changge"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="116评"
+
+                android:background="@drawable/pinlunedit_backgroud"
+
+
+                android:layout_alignParentRight="true"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
